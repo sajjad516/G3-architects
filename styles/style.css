@@ -213,6 +213,15 @@ main {
     .teams-content {
         padding-top: 30px;
     }
+    /* facts style  */
+    .facts-content{
+        padding: 0 20px;
+    }
+    .facts-card-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
 }
 
 /* ----->>Medium Device<-------- */
@@ -251,5 +260,14 @@ main {
 
     .teams-content:last-child {
         text-align: center;
+    }
+    /* facts style  */
+    .facts-content{
+        padding: 0 20px;
+    }
+    .facts-card-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
     }
 }
