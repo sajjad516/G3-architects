@@ -8,13 +8,14 @@
     padding: 0;
 }
 .btn-primary {
-    padding: 20px;
+    padding: 20px 25px;
     border-radius: 8px;
     background: #FF900E;
     color: #FFF;
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     font-weight: 600;
     border: 0;
+    cursor: pointer;
 }
 .btn-primary:hover{
     background: #fff;
@@ -59,7 +60,7 @@ nav li a {
 
 /*------------->>banner section style<<----------- */
 .banner-content {
-    width: 800px;
+    max-width: 800px;
     text-align: center;
     margin: 0 auto;
     padding: 70px 0 50px;
@@ -76,4 +77,55 @@ nav li a {
     font-size: 1rem;
     line-height: 26px;
     padding: 20px 0;
+}
+
+.banner img{
+    width: 100%;
+}
+
+/* responsive style */
+/* For mobile device */
+
+@media screen and (max-width:576px) {
+    /* header part responsive  */
+    header{
+        padding: 10px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    ul li{
+        margin: 20px 10px;
+    }
+    .banner-content{
+        padding: 0;
+    }
+    .banner-title{
+        font-size: 2rem;
+        padding-top: 20px;
+    }
+    .btn-primary{
+        margin-bottom: 20px 
+    }
+}
+
+/* ----->>Medium Device<-------- */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    /* header part responsive  */
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    ul li{
+        margin: 30px;
+    }
+    .banner-title{
+        font-size: 3rem;
+        padding-top: 20px;
+    }
+    .banner-content{
+        padding: 0 0 20px;
+    }
 }
