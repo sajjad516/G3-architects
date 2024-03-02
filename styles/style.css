@@ -148,17 +148,43 @@ main {
 .feature-img {
     width: 110%;
 }
-.features-title{
+
+.features-title {
     border-left: 5px solid #FF900E;
     border-radius: 10px;
     padding: 0 0 0 20px;
 }
-.feature-description{
+
+.feature-description {
     padding-top: 30px;
 }
+
 .feature-img img {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 98%;
+    /* margin-left: 20px; */
+}
+
+.ten-years-badge {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 210px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    left: -50px;
+}
+
+.ten-years-badge h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.ten-years-badge p {
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 .card {
@@ -168,9 +194,11 @@ main {
     margin: 20px 0;
     padding: 30px 30px 10px;
 }
-.card h4{
+
+.card h4 {
     margin-bottom: 10px;
 }
+
 /* facts style */
 .facts {
     margin: 80px 0;
@@ -255,7 +283,8 @@ main {
 
     /* teams part style  */
     .teams-container,
-    .sponsors-img-container,.features {
+    .sponsors-img-container,
+    .features {
         flex-direction: column;
     }
 
@@ -266,25 +295,39 @@ main {
     .teams-content {
         padding-top: 30px;
     }
+
     /* features style */
     .features {
         gap: 20px;
     }
+
     .feature-img {
-        width: 93%;
+        width: 100%;
         margin: 20px;
     }
-    .feature-description{
-        margin: 0 20px;
-    }
-    .features-title{
-        margin: 0 10px;
-    }
-    .card{
+
+    .feature-description {
         margin: 0 20px;
     }
 
+    .features-title {
+        margin: 0 10px;
+    }
+
+    .card {
+        margin: 0 20px;
+    }
+
+    .ten-years-badge {
+        bottom: 70px;
+        left: 130px
+    }
+
     /* facts style  */
+    
+.facts {
+    margin: 0;
+}
     .facts-content {
         padding: 0 20px;
     }
@@ -302,7 +345,8 @@ main {
         gap: 30px;
     }
 
-    .sponsors-descrp, .card {
+    .sponsors-descrp,
+    .card {
         margin: 0 10px;
     }
 
@@ -348,19 +392,24 @@ main {
     .teams-content:last-child {
         text-align: center;
     }
+
     /* features responsive style */
     .features {
         gap: 20px;
     }
-    .feature-description{
+
+    .feature-description {
         margin: 0 20px;
     }
-    .features-title{
+
+    .features-title {
         margin: 0 10px;
     }
-    .card{
+
+    .card {
         margin: 0 20px;
-    }  
+    }
+
     /* facts style  */
     .facts-content {
         padding: 0 20px;
